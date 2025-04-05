@@ -73,7 +73,7 @@ Confusion Matrix:
 ## Installation
 
 **1. Clone the repository:**
-git clone https://github.com/your-username/resume-screening.git
+git clone git clone https://github.com/shailylitoriya/resume_screening_app.git
 cd resume-screening
 
 **2. Install required libraries:**
@@ -96,7 +96,6 @@ Make sure you have these libraries installed:
     -nltk
     -spaCy
     -matplotlib
-    -pickle
     -sentence-transformers==2.2.2
     -scikit-learn==1.3.2
     -torch>=1.11.0
@@ -123,6 +122,6 @@ Multilingual support for resumes
 
 **Author**
 Shaily Litoriya
-**www.linkedin.com/in/shailylitoriya| https://github.com/shailylitoriya**
+**www.linkedin.com/in/shailylitoriya | https://github.com/shailylitoriya**
 
 Note: This project is open-source and free to use for educational and non-commercial purposes.
