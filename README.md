@@ -30,7 +30,14 @@ This project automates the process of screening resumes against job descriptions
 
 ## Project Structure
 
-resume-screening/ │ ├── app.py # Streamlit web app ├── train_model.py # Model training and saving ├── resume_matching_dataset.csv # Dataset (raw/balanced) ├── model.pkl # Trained model (saved with pickle) ├── vectorizer.pkl # TF-IDF vectorizer ├── README.md # Project documentation ├── requirements.txt # Required packages for deployment
+resume-screening_app │ 
+├── app.py # Streamlit web app
+├── train_model.py # Model training and saving 
+├── resume_matching_dataset.csv # Dataset (raw/balanced) 
+├── model.pkl # Trained model (saved with pickle) 
+├── vectorizer.pkl # TF-IDF vectorizer 
+├── README.md # Project documentation 
+├── requirements.txt # Required packages for deployment
 
 
 ---
@@ -88,16 +95,26 @@ Upload your resume and job description in .pdf or .docx format to get a matching
 ## Requirements
 Make sure you have these libraries installed:
     -streamlit
+    
     -pandas
+    
     -numpy
+    
     -PyPDF2
     -pytesseract
+    
     -python-docx
+    
     -nltk
+    
     -spaCy
+    
     -matplotlib
+    
     -sentence-transformers==2.2.2
+    
     -scikit-learn==1.3.2
+    
     -torch>=1.11.0
 
 ---
