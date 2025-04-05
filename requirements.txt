@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+PyPDF2
+pytesseract
+python-docx
+nltk
+spaCy
+matplotlib
+pickle
+sentence-transformers==2.2.2
+scikit-learn==1.3.2
+torch>=1.11.0

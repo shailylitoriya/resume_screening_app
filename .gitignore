@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Pyre type checker
+.pyre/
+
+# VS Code & other IDEs
+.vscode/
+.idea/
+
+# mypy
+.mypy_cache/
+
+# Streamlit-specific
+.streamlit/*.toml
+.streamlit/*.json
+
+# Model and vectorizer files (if generated during training)
+*.pkl
+*.joblib
+*.h5
+
+# Logs
+*.log
+
+# Environment variables
+.env
